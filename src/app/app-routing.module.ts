@@ -11,6 +11,22 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'starwars',
+    loadChildren: () => import('./paginas/starwars/fases/fases.module').then( m => m.FasesPageModule)
+  },
+  {
+    path: 'precuelas',
+    loadChildren: () => import('./paginas/starwars/precuelas/precuelas.module').then( m => m.PrecuelasPageModule)
+  },
+  {
+    path: 'originales',
+    loadChildren: () => import('./paginas/starwars/originales/originales.module').then( m => m.OriginalesPageModule)
+  },
+  {
+    path: 'temporadadisney',
+    loadChildren: () => import('./paginas/starwars/temporadadisney/temporadadisney.module').then( m => m.TemporadadisneyPageModule)
+  },
 ];
 
 @NgModule({
