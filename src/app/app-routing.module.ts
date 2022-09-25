@@ -27,6 +27,13 @@ const routes: Routes = [
     path: 'temporadadisney',
     loadChildren: () => import('./paginas/starwars/temporadadisney/temporadadisney.module').then( m => m.TemporadadisneyPageModule)
   },
+  {
+    path: 'saga',
+    loadChildren: () => import('./paginas/tlotr/saga/saga.module').then( m => m.SagaPageModule)
+  },
+
+
+
 ];
 
 @NgModule({
