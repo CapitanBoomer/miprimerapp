@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import{fase} from './../../../modelos/starwars';
+import{Coleccion} from './../../../modelos/coleccion'
 @Component({
   selector: 'app-fases',
   templateUrl: './fases.page.html',
@@ -11,6 +12,31 @@ export class FasesPage implements OnInit {
 
   ngOnInit() {
   }
+  public coleccion: Array<Coleccion> = [
+    {
+      nombre :'Star wars',
+      link:'/starwars'
+    },
+    {
+      nombre :'Harry potter'
+    },
+    {
+      nombre :'el señor de los anillos'
+    },
+    {
+      nombre :'Jurasir park'
+    },
+    {
+      nombre :'piratas del caribe'
+    },
+    {
+      nombre :'alien'
+    },
+    {
+      nombre :'depredador'
+    },
+
+    ]
 
   public fases: Array<fase> = [
     {

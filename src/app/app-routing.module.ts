@@ -32,6 +32,12 @@ const routes: Routes = [
     loadChildren: () => import('./paginas/tlotr/saga/saga.module').then( m => m.SagaPageModule)
   },
 
+  {
+    path: 'sw1',
+    loadChildren: () => import('./paginas/peliculas/pelisstarwars/sw1/sw1.module').then( m => m.SW1PageModule)
+  },
+
+
 
 
 ];

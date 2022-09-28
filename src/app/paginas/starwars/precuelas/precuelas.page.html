@@ -5,5 +5,15 @@
 </ion-header>
 
 <ion-content>
-
+  <ion-card *ngFor="let pelicula of peliculas">
+    <a href={{pelicula.link}}><img src={{pelicula.poster}}/></a>
+    <ion-card-header>
+      <ion-card-subtitle>{{pelicula.categoria}}</ion-card-subtitle>
+      <ion-card-title>{{pelicula.nombre}}</ion-card-title>
+      <ion-card-subtitle>{{pelicula.subtitulo}}</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      <p>{{pelicula.sinopsis}}</p>
+    </ion-card-content>
+  </ion-card>
 </ion-content>

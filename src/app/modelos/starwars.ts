@@ -8,7 +8,7 @@ export interface fase {
 
 export interface trilogiaprecuelas {
   id?:string,
-  poster:string,
+  poster?:string,
   link:string,
   categoria:string,
   nombre:string,
@@ -18,7 +18,7 @@ export interface trilogiaprecuelas {
 
 export interface trilogiaoriginal {
   id?:string,
-  poster:string,
+  poster?:string,
   link:string,
   categoria:string,
   nombre:string,

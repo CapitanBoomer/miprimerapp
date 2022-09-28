@@ -6,7 +6,7 @@
   </ion-header>
   <ion-content class="ion-padding">
     <ion-item *ngFor="let coleccion of coleccion  "
-    href={{coleccion.link}}>
+    [href]="coleccion.link">
       <ion-label>{{coleccion.nombre}}</ion-label>
     </ion-item>
   </ion-content>
@@ -24,9 +24,10 @@
 
 <ion-card *ngFor="let cartelera of cartelera">
   <ion-item >
-    <ion-img src={{cartelera.foto}} ></ion-img>
+    <ion-img [src]="cartelera.foto" ></ion-img>
   </ion-item>
 
 </ion-card>
   </ion-content>
+
 </div>
