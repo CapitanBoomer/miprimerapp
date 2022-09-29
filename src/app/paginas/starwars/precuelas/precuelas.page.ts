@@ -13,7 +13,7 @@ export class PrecuelasPage implements OnInit {
   }
   public peliculas: Array<trilogiaprecuelas> = [
     {
-      poster:'https://images-na.ssl-images-amazon.com/images/S/pv-target-images/c5d63f400df3a695c9c8c4a6f23017ed26de46819cf848c341a1625547f21c8b._UY500_UX667_RI_V_TTW_.jpg',
+      poster:'https://images-na.ssl-images-amazon.com/images/S/pv-target-images/689056999c42a941b6c78ee4c975a0bcf6d3308a3ed470b2262f0934245a5d30._UY500_UX667_RI_V_TTW_.jpg',
       link:'sw1',
       categoria: 'ciencia ficcion',
       nombre: 'Star wars',
@@ -21,7 +21,7 @@ export class PrecuelasPage implements OnInit {
       sinopsis:'La República Galáctica está sumida en el caos. Los impuestos de las rutas comerciales a los sistemas estelares exteriores están en disputa. Esperando resolverel asunto con un bloqueo de poderosas naves de guerra, la codiciosa Federación del Comercio ha detenido todos los envíos al pequeño planeta de Naboo.',
     },
     {
-      poster:'https://images-na.ssl-images-amazon.com/images/S/pv-target-images/c2f898c7decc4930bf08c77e023600fb6bfb7b9087da08434b6d051f90c83623._UY500_UX667_RI_V_TTW_.jpg',
+      poster:'https://images-na.ssl-images-amazon.com/images/S/pv-target-images/e47eb656e9abb068c38b7d2c019a4e4850bb6410006a39cba35acd127eab7f9f._UY500_UX667_RI_V_TTW_.jpg',
       link:'https://www.youtube.com/watch?v=xZadZJGs9RM&ab_channel=PSIGaming',
       categoria: 'ficcion',
       nombre: 'star wars',
@@ -29,7 +29,7 @@ export class PrecuelasPage implements OnInit {
       sinopsis:'La República Galáctica está sumida en el caos. Los impuestos de las rutas comerciales a los sistemas estelares exteriores están en disputa. Esperando resolverel asunto con un bloqueo de poderosas naves de guerra, la codiciosa Federación del Comercio ha detenido todos los envíos al pequeño planeta de Naboo.',
     },
     {
-      poster:'https://images-na.ssl-images-amazon.com/images/S/pv-target-images/3e3c1d76d43806ebce39618ca320bcf08dbc1833710fced6b9c832853596da4b._UY500_UX667_RI_V_TTW_.jpg',
+      poster:'https://images-na.ssl-images-amazon.com/images/S/pv-target-images/fb65b87f2687ba3aeef3eebf5c06fa8b281585b0780d53e0218044a56f209584._UY500_UX667_RI_V_TTW_.jpg',
       link:'https://www.youtube.com/watch?v=JuoAECMqAf4&ab_channel=DanielChavez',
       categoria: 'ficcion',
       nombre: 'star wars',
