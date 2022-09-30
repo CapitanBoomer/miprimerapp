@@ -5,8 +5,12 @@
     </ion-toolbar>
   </ion-header>
   <ion-content class="ion-padding">
+    <ion-item>
+      <ion-label>Modo oscuro</ion-label>
+      <ion-toggle slot="end" (ionChange)="modooscuro($event)" ></ion-toggle>
+    </ion-item>
     <ion-item *ngFor="let coleccion of coleccion  "
-    [href]="coleccion.link">
+    [routerLink]="[coleccion.link]">
       <ion-label>{{coleccion.nombre}}</ion-label>
     </ion-item>
   </ion-content>
@@ -22,7 +26,7 @@
   </ion-header>
   <ion-content class="ion-padding">
 
-<ion-card *ngFor="let cartelera of cartelera">
+<ion-card *ngFor="let cartelera of cartelera" [routerLink]="[cartelera.link]" >
   <ion-item >
     <ion-img [src]="cartelera.foto" ></ion-img>
   </ion-item>

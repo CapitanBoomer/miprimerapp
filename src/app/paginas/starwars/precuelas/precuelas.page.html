@@ -27,7 +27,7 @@
   </ion-header>
 <ion-content>
   <ion-card *ngFor="let pelicula of peliculas">
-    <a href={{pelicula.link}}><img src={{pelicula.poster}}/></a>
+    <a [routerLink]="[pelicula.link]"><img src={{pelicula.poster}}/></a>
     <ion-card-header>
       <ion-card-subtitle>{{pelicula.categoria}}</ion-card-subtitle>
       <ion-card-title>{{pelicula.nombre}}</ion-card-title>

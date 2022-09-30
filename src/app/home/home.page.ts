@@ -37,7 +37,9 @@ public coleccion: Array<Coleccion> = [
 public cartelera : Array<caratula> = [
   {
     foto:'https://i.pinimg.com/564x/61/53/d4/6153d4eb603719d91a42b53adbf2fa98.jpg',
-    nombre:'star wars'
+    nombre:'star wars',
+    link: '/starwars'
+
   },
   {
     foto:'https://i.pinimg.com/564x/13/cf/1d/13cf1d399c43d3000a6dc7d13bffc1c6.jpg'
@@ -57,9 +59,15 @@ public cartelera : Array<caratula> = [
   {
     foto:'https://i.pinimg.com/564x/cb/f3/43/cbf3436e595963ee05920cd938e869d3.jpg'
   },
-
-
 ]
 
+public modooscuro (event:Event): void {
+  console.log('hola')
+  //const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+  // toggleDarkTheme(prefersDark.matches);
+ // document.body.classList.toggle('dark',prefersDark.matches);
+ //document.body.classList.toggle('dark')
+
+}
 
 }

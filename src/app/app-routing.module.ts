@@ -43,6 +43,10 @@ const routes: Routes = [
     path: 'sw3',
     loadChildren: () => import('./paginas/peliculas/pelisstarwars/sw3/sw3.module').then( m => m.Sw3PageModule)
   },
+  {
+    path: 'starwars',
+    loadChildren: () => import('./paginas/wiki/starwars/starwars.module').then( m => m.StarwarsPageModule)
+  },
 
 
 
