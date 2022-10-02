@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
-
+import {RouterModule} from '@angular/router'
 import { Sw2PageRoutingModule } from './sw2-routing.module';
 
 import { Sw2Page } from './sw2.page';
@@ -13,7 +13,9 @@ import { Sw2Page } from './sw2.page';
     CommonModule,
     FormsModule,
     IonicModule,
-    Sw2PageRoutingModule
+    Sw2PageRoutingModule,
+    RouterModule
+
   ],
   declarations: [Sw2Page]
 })

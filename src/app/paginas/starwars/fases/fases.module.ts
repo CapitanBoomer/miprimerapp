@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-
+import {RouterModule} from '@angular/router'
 import { IonicModule } from '@ionic/angular';
 
 import { FasesPageRoutingModule } from './fases-routing.module';
@@ -13,7 +13,8 @@ import { FasesPage } from './fases.page';
     CommonModule,
     FormsModule,
     IonicModule,
-    FasesPageRoutingModule
+    FasesPageRoutingModule,
+    RouterModule
   ],
   declarations: [FasesPage]
 })
