@@ -5,12 +5,16 @@
 </ion-header>
 
 <ion-content>
-  <ion-slides pager="true" [options]="slideOpts">
+  <ion-slides pager="false" [options]="slideOpts">
     <ion-slide>
-      <h1>Slide 1</h1>
+      <ion-card>
+        <ion-card-content>
+          <img src="https://imagenes.20minutos.es/files/image_990_v3/uploads/imagenes/2020/04/28/cine-peliculas-estreno-plataformas-streaming-00.png" alt="">
+        </ion-card-content>
+      </ion-card>
     </ion-slide>
     <ion-slide>
-      <h1>Slide 2</h1>
+      <button [routerLink]="['/starwars']">aqui</button>
     </ion-slide>
     <ion-slide>
       <h1>Slide 3</h1>
