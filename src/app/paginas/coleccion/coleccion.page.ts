@@ -21,13 +21,15 @@ export class ColeccionPage implements OnInit {
 
       },
       {
-        foto:'https://i.pinimg.com/564x/13/cf/1d/13cf1d399c43d3000a6dc7d13bffc1c6.jpg'
+        foto:'https://i.pinimg.com/564x/6f/2f/70/6f2f70a9541638132dc2dcd378167e7a.jpg',
+        nombre:'harry potter',
+        link:'/sagahp'
       },
       {
         foto:'https://i.pinimg.com/564x/09/bf/df/09bfdf794207b7f28d381c80a5cc8db7.jpg'
       },
       {
-        foto:'https://i.pinimg.com/564x/6f/2f/70/6f2f70a9541638132dc2dcd378167e7a.jpg'
+        foto:'https://i.pinimg.com/564x/13/cf/1d/13cf1d399c43d3000a6dc7d13bffc1c6.jpg'
       },
       {
         foto:'https://i.pinimg.com/564x/1b/71/bf/1b71bf85e021efe15e229f9a5f71381c.jpg'

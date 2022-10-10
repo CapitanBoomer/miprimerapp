@@ -16,6 +16,10 @@ const routes: Routes = [
     loadChildren: () => import('./paginas/starwars/fases/fases.module').then( m => m.FasesPageModule)
   },
   {
+    path: 'coleccion',
+    loadChildren: () => import('./paginas/coleccion/coleccion.module').then( m => m.ColeccionPageModule)
+  },
+  {
     path: 'precuelas',
     loadChildren: () => import('./paginas/starwars/precuelas/precuelas.module').then( m => m.PrecuelasPageModule)
   },
@@ -40,10 +44,7 @@ const routes: Routes = [
     path: 'sw3',
     loadChildren: () => import('./paginas/peliculas/pelisstarwars/sw3/sw3.module').then( m => m.Sw3PageModule)
   },
-  {
-    path: 'starwiki',
-    loadChildren: () => import('./paginas/wiki/starwars/starwars.module').then( m => m.StarwarsPageModule)
-  },
+
   {
     path: 'sagahp',
     loadChildren: () => import('./paginas/Hp/saga/saga.module').then( m => m.SagaPageModule)
@@ -60,6 +61,7 @@ const routes: Routes = [
     path: 'hp3',
     loadChildren: () => import('./paginas/peliculas/pelishp/hp3/hp3.module').then( m => m.Hp3PageModule)
   },
+
 
 
 
